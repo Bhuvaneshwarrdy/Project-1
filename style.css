@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition: background 0.5s ease-in-out;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    margin-top: 20%;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+.quote {
+    margin-top: 20px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.happy {
+    background: linear-gradient(to right, #ffeb3b, #ff9800);
+}
+
+.sad {
+    background: linear-gradient(to right, #2193b0, #6dd5ed);
+}
+
+.motivated {
+    background: linear-gradient(to right, #00b09b, #96c93d);
+}
+
+.calm {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+}
